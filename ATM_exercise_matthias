@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T12:18:29.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="bhxslXjJSrUsWxgT9XpQ" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T13:32:02.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="rkc602aTImrgmS4GK9HS" version="14.4.3" type="github">
   <diagram id="HHBybVJslHK9IK6glZrV" name="Page-1">
     <mxGraphModel dx="1038" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -27,8 +27,8 @@
         <mxCell id="HmRXq2R4vPwLGtAScppN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-4" target="HmRXq2R4vPwLGtAScppN-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HmRXq2R4vPwLGtAScppN-4" value="however the 10$ are the most valuable to the ATM due to their high demand" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="-1030" width="120" height="60" as="geometry" />
+        <mxCell id="HmRXq2R4vPwLGtAScppN-4" value="The ATM will have the most 10$ notes and least 100$ notes, 10$ are in high demand and high supply" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-1030" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HmRXq2R4vPwLGtAScppN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-6" target="HmRXq2R4vPwLGtAScppN-12">
           <mxGeometry relative="1" as="geometry" />
@@ -36,11 +36,88 @@
         <mxCell id="HmRXq2R4vPwLGtAScppN-6" value="The ATM therefore will attempt to give the least amount of notes possible to preverse the supply of 10&#39;s" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="-1100" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="HmRXq2R4vPwLGtAScppN-12" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="HmRXq2R4vPwLGtAScppN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-12" target="HmRXq2R4vPwLGtAScppN-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="-1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-12" value="The ATM will allow withdrawals if following conditions are TRUE:" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="-1100" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-14" target="HmRXq2R4vPwLGtAScppN-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HmRXq2R4vPwLGtAScppN-14" value="An ATM stops being User-friendly after it is out of 10&#39;s, forcing the user into pre-determined withdrawals" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="131" y="-960" width="120" height="100" as="geometry" />
+          <mxGeometry x="130" y="-940" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-23" target="HmRXq2R4vPwLGtAScppN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-23" value="The ATM has enough money to complete the transaction" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-25" value="The ATM has the correct denominations of money to complete the transaction" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-32" target="HmRXq2R4vPwLGtAScppN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-32" value="Start&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-820" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-34" target="HmRXq2R4vPwLGtAScppN-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-34" value="User puts in value" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-36" target="HmRXq2R4vPwLGtAScppN-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-36" target="HmRXq2R4vPwLGtAScppN-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-36" value="value%10&amp;nbsp;&lt;br&gt;IF == 0, next step,&lt;br&gt;IF !== 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-38" value="Please only values of 10" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-40" target="HmRXq2R4vPwLGtAScppN-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-40" value="ATM then attempts to use as few notes as possible" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-42" target="HmRXq2R4vPwLGtAScppN-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-42" target="HmRXq2R4vPwLGtAScppN-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-42" value="e.g. 70 is best met with 1*50$ and 1*20$" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-44" value="Or when it is out of any banknote for that matter" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-46" target="HmRXq2R4vPwLGtAScppN-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-46" value="90 best met with 1*50$ 2*20$" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmRXq2R4vPwLGtAScppN-48" target="HmRXq2R4vPwLGtAScppN-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-48" value="an ATM out of 50&#39;s, must rely on 20&#39;s and 10&#39;s to meet transactions not %100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HmRXq2R4vPwLGtAScppN-52" value="and an ATM out of 10&#39;s &amp;amp; 50&#39;s can only meet demands divisible by 20 and high withdrawals not very efficiently&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-340" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
