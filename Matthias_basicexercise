@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T09:12:59.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ha0XMhWqiHzgZU4nV5Ru" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T10:04:15.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="m_0DX99dL9YwBVoegprw" version="14.4.3" type="github" pages="2">
   <diagram id="N2Ayu1KkTNy8Vv9t2Gsr" name="Page-1">
     <mxGraphModel dx="1767" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -166,6 +166,83 @@
         </mxCell>
         <mxCell id="d5LZFHmH8Bco7Hj40vr_-41" value="The lowball guess at the beginning helps to determine a lower limit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="505" y="125" width="130" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A_btufMdM2Lvhded2f63" name="Page-2">
+    <mxGraphModel dx="1767" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-0" />
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-1" parent="GDlAA26k-2W8Ph_Kr7Fh-0" />
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-2" value="Some constants:&lt;br&gt;Week = 7 days = 604,800 seconds&lt;br&gt;day = 24hours = 86,400 seconds&lt;br&gt;1 hour = 60 minutes = 3,600 seconds&lt;br&gt;1 minute = 60 seconds&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry width="840" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-3" value="input comes in seconds:&amp;nbsp;&lt;br&gt;2000000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry x="280" y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-4" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1" target="GDlAA26k-2W8Ph_Kr7Fh-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="190" as="sourcePoint" />
+            <mxPoint x="290" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-5" value="divide by 60 to get minutes&lt;br&gt;2 000 000/60 = 33 333.3minutes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry x="265" y="190" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-6" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1" target="GDlAA26k-2W8Ph_Kr7Fh-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="300" as="sourcePoint" />
+            <mxPoint x="290" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-7" value="divide again by 60 to get hours:&lt;br&gt;33 333.3/60 = 555.5hours" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry x="259" y="300" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-8" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1" target="GDlAA26k-2W8Ph_Kr7Fh-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="290" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-9" value="by 24 to get days&lt;br&gt;555.5/24 = 23.1 days" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry x="280" y="400" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-10" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1" source="GDlAA26k-2W8Ph_Kr7Fh-11" target="GDlAA26k-2W8Ph_Kr7Fh-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="290" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-11" value="by 7 to get weeks&lt;br&gt;23.1/7 = 3 weeks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry x="450" y="500" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-12" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1" target="GDlAA26k-2W8Ph_Kr7Fh-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="580" as="sourcePoint" />
+            <mxPoint x="290" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-13" value="21 days in 3 weeks. so 2 days are the remainder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry x="340" y="580" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-14" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1" target="GDlAA26k-2W8Ph_Kr7Fh-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="410" as="sourcePoint" />
+            <mxPoint x="290" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-16" value="504 hours in 3 weeks. so 51.5 hours left over. 48 of those are taken by the two days so 3.5 hours are left over" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry x="90" y="410" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-17" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1" target="GDlAA26k-2W8Ph_Kr7Fh-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="580" as="sourcePoint" />
+            <mxPoint x="160" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GDlAA26k-2W8Ph_Kr7Fh-18" value=".5hours is 30 minutes. And I have lost some 3 minutes and 20 seconds in this process :(" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GDlAA26k-2W8Ph_Kr7Fh-1">
+          <mxGeometry x="90" y="580" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
