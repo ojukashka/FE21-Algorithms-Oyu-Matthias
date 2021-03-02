@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T09:03:02.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="YagZvXIg5r643d1DJbdR" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T09:09:00.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="gyAJcL8jWxX63WsPB-nQ" version="14.4.3" type="github">
   <diagram id="N2Ayu1KkTNy8Vv9t2Gsr" name="Page-1">
     <mxGraphModel dx="1767" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -160,6 +160,9 @@
               <mxPoint x="40" y="230" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="d5LZFHmH8Bco7Hj40vr_-39" value="As a human player, its about finding an upper limit and then working backwards from there ( in my strategy)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
